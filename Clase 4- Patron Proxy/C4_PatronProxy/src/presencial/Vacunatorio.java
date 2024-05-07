@@ -1,5 +1,9 @@
 package presencial;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Vacunatorio implements VacunatorioService{
     @Override
     public String vacunar(Persona persona) {
@@ -9,7 +13,8 @@ public class Vacunatorio implements VacunatorioService{
         System.out.println(persona.getCedula());
         System.out.println(persona.getNombre());
         System.out.println("Vacuna colocada: "+persona.getNombreVacuna());
-
+       ;
         return "finalizado";
     }
+
 }
