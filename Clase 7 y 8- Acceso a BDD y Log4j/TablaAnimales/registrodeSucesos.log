@@ -1,0 +1,4 @@
+[2024-05-09 20:19:30] [ INFO ] [Cliente:17] se creo correctamente la tabla en la bdd
+[2024-05-09 20:19:30] [ WARN ] [Cliente:21] se insertaron correctamente los animales
+[2024-05-09 20:19:30] [ WARN ] [Cliente:30] se elimino el ID 2
+[2024-05-09 20:19:30] [ WARN ] [Cliente:43] se cerro correctamente la conexion a la bdd
