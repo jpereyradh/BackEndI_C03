@@ -1,0 +1,43 @@
+[2024-05-14 19:39:44] [ ERROR] [Cliente:34] Error de Sintaxis en sentencia SQL " DROP TABLE [*]IF EXIST CUENTAS; CREATE TABLE CUENTAS (ID INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, NUMERO_CUENTA INT NOT NULL, SALDO NUMERIC(10,2) NOT NULL)"; se esperaba "identifier"
+Syntax error in SQL statement " DROP TABLE [*]IF EXIST CUENTAS; CREATE TABLE CUENTAS (ID INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, NUMERO_CUENTA INT NOT NULL, SALDO NUMERIC(10,2) NOT NULL)"; expected "identifier"; SQL statement:
+ DROP TABLE IF EXIST CUENTAS; CREATE TABLE CUENTAS (ID INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, NUMERO_CUENTA INT NOT NULL, SALDO NUMERIC(10,2) NOT NULL) [42001-224]
+[2024-05-14 19:41:08] [ INFO ] [Cliente:23] tablas creadas con exito
+[2024-05-14 19:41:08] [ INFO ] [Cliente:31] datos cargados con exito
+[2024-05-14 19:43:53] [ INFO ] [Cliente:23] tablas creadas con exito
+[2024-05-14 19:43:53] [ INFO ] [Cliente:31] datos cargados con exito
+[2024-05-14 19:43:53] [ INFO ] [Cliente:37] datos actualizados con exito
+[2024-05-14 19:45:43] [ INFO ] [Cliente:23] tablas creadas con exito
+[2024-05-14 19:45:43] [ INFO ] [Cliente:31] datos cargados con exito
+[2024-05-14 19:45:43] [ INFO ] [Cliente:37] datos actualizados con exito
+[2024-05-14 19:51:00] [ INFO ] [Cliente:23] tablas creadas con exito
+[2024-05-14 19:51:00] [ INFO ] [Cliente:31] datos cargados con exito
+[2024-05-14 19:51:00] [ INFO ] [Cliente:37] datos actualizados con exito
+[2024-05-14 19:51:00] [ INFO ] [Cliente:43] datos actualizados con exito
+[2024-05-14 19:54:31] [ ERROR] [Cliente:47] La base de datos puede que ya esté siendo utilizada: "C:/Users/jorge.pereyra/C9_Consultas.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/jorge.pereyra/C9_Consultas.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-14 19:54:39] [ INFO ] [Cliente:23] tablas creadas con exito
+[2024-05-14 19:54:39] [ INFO ] [Cliente:31] datos cargados con exito
+[2024-05-14 19:54:39] [ INFO ] [Cliente:37] datos actualizados con exito
+[2024-05-14 19:54:39] [ ERROR] [Cliente:47] / by zero
+[2024-05-14 19:55:06] [ INFO ] [Cliente:23] tablas creadas con exito
+[2024-05-14 19:55:06] [ INFO ] [Cliente:31] datos cargados con exito
+[2024-05-14 19:55:06] [ INFO ] [Cliente:37] datos actualizados con exito
+[2024-05-14 19:55:06] [ INFO ] [Cliente:45] datos actualizados con exito
+[2024-05-14 19:56:38] [ ERROR] [Cliente:48] La base de datos puede que ya esté siendo utilizada: "C:/Users/jorge.pereyra/C9_Consultas.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/jorge.pereyra/C9_Consultas.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-14 19:56:45] [ INFO ] [Cliente:23] tablas creadas con exito
+[2024-05-14 19:56:45] [ INFO ] [Cliente:31] datos cargados con exito
+[2024-05-14 19:56:45] [ INFO ] [Cliente:37] datos actualizados con exito
+[2024-05-14 19:56:45] [ ERROR] [Cliente:48] / by zero
+[2024-05-14 19:58:50] [ INFO ] [Cliente:20] tablas creadas con exito
+[2024-05-14 19:58:50] [ INFO ] [Cliente:28] datos cargados con exito
+[2024-05-14 19:58:50] [ INFO ] [Cliente:34] datos actualizados con exito
+[2024-05-14 20:00:17] [ INFO ] [Cliente:20] tablas creadas con exito
+[2024-05-14 20:00:17] [ INFO ] [Cliente:28] datos cargados con exito
+[2024-05-14 20:00:17] [ INFO ] [Cliente:34] datos actualizados con exito
+[2024-05-14 20:00:17] [ WARN ] [Cliente:47] volvimos a la linea 33
+[2024-05-14 20:01:49] [ INFO ] [Cliente:20] tablas creadas con exito
+[2024-05-14 20:01:49] [ INFO ] [Cliente:28] datos cargados con exito
+[2024-05-14 20:01:49] [ INFO ] [Cliente:34] datos actualizados con exito
+[2024-05-14 20:01:49] [ INFO ] [Cliente:40] hasta aca llego?
+[2024-05-14 20:01:49] [ WARN ] [Cliente:48] volvimos a la linea 33
