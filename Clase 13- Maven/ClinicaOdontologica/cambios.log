@@ -1,0 +1,22 @@
+[2024-05-21 21:01:59] [ WARN ] [BD:34] org.h2.Driver
+[2024-05-21 21:01:59] [ INFO ] [PacienteDAOH2:18] inciando las operaciones de guardado
+[2024-05-21 21:01:59] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado
+[2024-05-21 21:01:59] [ ERROR] [DomicilioDAOH2:36] org.h2.Driver
+[2024-05-21 21:01:59] [ ERROR] [PacienteDAOH2:39] org.h2.Driver
+[2024-05-21 21:03:05] [ WARN ] [BD:34] org.h2.Driver
+[2024-05-21 21:03:06] [ INFO ] [PacienteDAOH2:18] inciando las operaciones de guardado
+[2024-05-21 21:03:06] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado
+[2024-05-21 21:03:06] [ ERROR] [DomicilioDAOH2:36] org.h2.Driver
+[2024-05-21 21:03:06] [ ERROR] [PacienteDAOH2:39] org.h2.Driver
+[2024-05-21 21:03:59] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-21 21:03:59] [ INFO ] [PacienteDAOH2:18] inciando las operaciones de guardado
+[2024-05-21 21:03:59] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado
+[2024-05-21 21:03:59] [ INFO ] [DomicilioDAOH2:33] domicilio guardado
+[2024-05-21 21:03:59] [ INFO ] [PacienteDAOH2:35] paciente guardado
+[2024-05-21 21:04:45] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-21 21:04:45] [ INFO ] [PacienteDAOH2:18] inciando las operaciones de guardado
+[2024-05-21 21:04:45] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado
+[2024-05-21 21:04:45] [ INFO ] [DomicilioDAOH2:33] domicilio guardado
+[2024-05-21 21:04:45] [ INFO ] [PacienteDAOH2:35] paciente guardado
+[2024-05-21 21:04:45] [ INFO ] [PacienteDAOH2:46] iniciando la operacion de buscado de un paciente con id : 3
+[2024-05-21 21:04:45] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 3

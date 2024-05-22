@@ -45,4 +45,15 @@ public class Domicilio {
     public String getProvincia() {
         return provincia;
     }
+
+    @Override
+    public String toString() {
+        return "Domicilio{" +
+                "id=" + id +
+                ", calle='" + calle + '\'' +
+                ", numero=" + numero +
+                ", localidad='" + localidad + '\'' +
+                ", provincia='" + provincia + '\'' +
+                '}';
+    }
 }

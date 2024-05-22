@@ -54,4 +54,16 @@ public class Paciente {
     public Domicilio getDomicilio() {
         return domicilio;
     }
+
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", cedula='" + cedula + '\'' +
+                ", fechaIngreso=" + fechaIngreso +
+                ", domicilio=" + domicilio +
+                '}';
+    }
 }

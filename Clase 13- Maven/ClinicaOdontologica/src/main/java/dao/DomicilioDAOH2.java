@@ -6,15 +6,37 @@ import org.apache.log4j.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.List;
 
 public class DomicilioDAOH2 implements iDao<Domicilio>{
     private static final Logger logger= Logger.getLogger(DomicilioDAOH2.class);
     private static final String SQL_SELECT_ONE="SELECT * FROM DOMICILIOS WHERE ID=?";
+    private static final String SQL_INSERT="INSERT INTO DOMICILIOS (CALLE, NUMERO,LOCALIDAD, PROVINCIA) VALUES(?,?,?,?)";
 
     @Override
     public Domicilio guardar(Domicilio domicilio) {
-        return null;
+        logger.info("iniciando las operaciones de guardado");
+        Connection connection=null;
+        try{
+            connection=BD.getConnection();
+            PreparedStatement psInsert= connection.prepareStatement(SQL_INSERT, Statement.RETURN_GENERATED_KEYS);
+            psInsert.setString(1, domicilio.getCalle());
+            psInsert.setInt(2,domicilio.getNumero());
+            psInsert.setString(3, domicilio.getLocalidad());
+            psInsert.setString(4, domicilio.getProvincia());
+            psInsert.execute();
+            ResultSet clave= psInsert.getGeneratedKeys();
+            while(clave.next()){
+                domicilio.setId(clave.getInt(1));
+            }
+            logger.info("domicilio guardado");
+
+        }catch (Exception e){
+            logger.error(e.getMessage());
+        }
+
+        return domicilio;
     }
 
     @Override
