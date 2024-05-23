@@ -1,5 +1,10 @@
-package model;
+package BackEndC3.ClinicaOdontologica.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Domicilio {
     private Integer id;
     private String calle;
@@ -22,29 +27,7 @@ public class Domicilio {
         this.provincia = provincia;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public String getCalle() {
-        return calle;
-    }
-
-    public Integer getNumero() {
-        return numero;
-    }
-
-    public String getLocalidad() {
-        return localidad;
-    }
-
-    public String getProvincia() {
-        return provincia;
-    }
 
     @Override
     public String toString() {

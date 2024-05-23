@@ -1,8 +1,8 @@
-package service;
+package BackEndC3.ClinicaOdontologica.service;
 
-import dao.PacienteDAOH2;
-import dao.iDao;
-import model.Paciente;
+import BackEndC3.ClinicaOdontologica.dao.PacienteDAOH2;
+import BackEndC3.ClinicaOdontologica.dao.iDao;
+import BackEndC3.ClinicaOdontologica.model.Paciente;
 
 public class PacienteService {
 private iDao<Paciente> pacienteiDao;
@@ -16,5 +16,8 @@ private iDao<Paciente> pacienteiDao;
     }
     public Paciente buscarPorID(Integer id){
         return pacienteiDao.buscarPorId(id);
+    }
+    public Paciente buscarPorEmail(String email){
+        return pacienteiDao.buscarPorString(email);
     }
 }

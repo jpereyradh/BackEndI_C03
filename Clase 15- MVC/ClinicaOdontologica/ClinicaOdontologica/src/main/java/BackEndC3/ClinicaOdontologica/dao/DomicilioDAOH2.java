@@ -1,6 +1,6 @@
-package dao;
+package BackEndC3.ClinicaOdontologica.dao;
 
-import model.Domicilio;
+import BackEndC3.ClinicaOdontologica.model.Domicilio;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;
@@ -71,6 +71,11 @@ public class DomicilioDAOH2 implements iDao<Domicilio>{
 
     @Override
     public List<Domicilio> buscarTodos() {
+        return null;
+    }
+
+    @Override
+    public Domicilio buscarPorString(String string) {
         return null;
     }
 }

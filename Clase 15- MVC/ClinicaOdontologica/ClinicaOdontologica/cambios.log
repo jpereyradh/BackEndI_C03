@@ -1,0 +1,3 @@
+[2024-05-23 19:51:30] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-23 19:51:30] [ INFO ] [PacienteDAOH2:48] iniciando la operacion de buscado de un paciente con id : 2
+[2024-05-23 19:51:30] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 2

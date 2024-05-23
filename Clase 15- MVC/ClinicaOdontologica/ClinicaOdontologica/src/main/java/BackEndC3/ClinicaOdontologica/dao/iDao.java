@@ -1,4 +1,4 @@
-package dao;
+package BackEndC3.ClinicaOdontologica.dao;
 
 import java.util.List;
 
@@ -10,5 +10,6 @@ public interface iDao<T> {
     void actualizar(T t);
 
     List<T> buscarTodos();
+    T buscarPorString(String string);
 
 }
