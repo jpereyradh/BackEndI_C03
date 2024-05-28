@@ -1,3 +1,22 @@
 [2024-05-23 19:51:30] [ INFO ] [BD:29] tabla creada con exito
 [2024-05-23 19:51:30] [ INFO ] [PacienteDAOH2:48] iniciando la operacion de buscado de un paciente con id : 2
 [2024-05-23 19:51:30] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 2
+[2024-05-28 00:04:00] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-28 00:05:18] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-28 00:06:25] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-28 00:07:26] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-28 00:07:32] [ INFO ] [PacienteDAOH2:19] inciando las operaciones de guardado
+[2024-05-28 00:07:32] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado
+[2024-05-28 00:07:32] [ INFO ] [DomicilioDAOH2:33] domicilio guardado
+[2024-05-28 00:07:32] [ ERROR] [PacienteDAOH2:41] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-05-28 00:07:48] [ INFO ] [PacienteDAOH2:19] inciando las operaciones de guardado
+[2024-05-28 00:07:48] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado
+[2024-05-28 00:07:48] [ INFO ] [DomicilioDAOH2:33] domicilio guardado
+[2024-05-28 00:07:48] [ ERROR] [PacienteDAOH2:41] Valor Invalido "6" para el parametro "parameterIndex"
+Invalid value "6" for parameter "parameterIndex" [90008-214]
+[2024-05-28 00:09:01] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-28 00:09:08] [ INFO ] [PacienteDAOH2:19] inciando las operaciones de guardado
+[2024-05-28 00:09:08] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado
+[2024-05-28 00:09:08] [ INFO ] [DomicilioDAOH2:33] domicilio guardado
+[2024-05-28 00:09:08] [ ERROR] [PacienteDAOH2:41] Valor Invalido "6" para el parametro "parameterIndex"
+Invalid value "6" for parameter "parameterIndex" [90008-214]
