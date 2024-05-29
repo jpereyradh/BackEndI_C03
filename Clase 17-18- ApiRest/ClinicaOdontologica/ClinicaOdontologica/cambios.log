@@ -53,3 +53,33 @@ Invalid value "6" for parameter "parameterIndex" [90008-214]
 [2024-05-28 20:07:07] [ ERROR] [DomicilioDAOH2:83] Error de Sintaxis en sentencia SQL "UPDATE  DOMICILIOS CALLE[*]=?,NUMERO=?, LOCALIDAD=?, PROVINCIA =? WHERE ID=?"; se esperaba "SET"
 Syntax error in SQL statement "UPDATE  DOMICILIOS CALLE[*]=?,NUMERO=?, LOCALIDAD=?, PROVINCIA =? WHERE ID=?"; expected "SET"; SQL statement:
 UPDATE  DOMICILIOS CALLE=?,NUMERO=?, LOCALIDAD=?, PROVINCIA =? WHERE ID=? [42001-214]
+[2024-05-28 20:08:11] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-28 20:08:33] [ INFO ] [PacienteDAOH2:20] inciando las operaciones de guardado de : Julian
+[2024-05-28 20:08:33] [ INFO ] [DomicilioDAOH2:20] iniciando las operaciones de guardado de un domicilio con id: null
+[2024-05-28 20:08:33] [ INFO ] [DomicilioDAOH2:34] domicilio guardado
+[2024-05-28 20:08:33] [ INFO ] [PacienteDAOH2:38] paciente guardado con exito
+[2024-05-28 20:08:36] [ INFO ] [PacienteDAOH2:20] inciando las operaciones de guardado de : Julian
+[2024-05-28 20:08:36] [ INFO ] [DomicilioDAOH2:20] iniciando las operaciones de guardado de un domicilio con id: null
+[2024-05-28 20:08:36] [ INFO ] [DomicilioDAOH2:34] domicilio guardado
+[2024-05-28 20:08:36] [ INFO ] [PacienteDAOH2:38] paciente guardado con exito
+[2024-05-28 20:09:08] [ INFO ] [PacienteDAOH2:49] iniciando la operacion de buscado de un paciente con id : 4
+[2024-05-28 20:09:08] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 4
+[2024-05-28 20:09:08] [ WARN ] [PacienteDAOH2:81] iniciando las operaciones de actualizacion de un paciente con id : 4
+[2024-05-28 20:09:08] [ INFO ] [DomicilioDAOH2:70] iniciando la actualizacion del domicilio con id: 4
+[2024-05-28 21:40:58] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-28 21:41:15] [ INFO ] [PacienteDAOH2:20] inciando las operaciones de guardado de : Julian
+[2024-05-28 21:41:15] [ INFO ] [DomicilioDAOH2:20] iniciando las operaciones de guardado de un domicilio con id: null
+[2024-05-28 21:41:15] [ INFO ] [DomicilioDAOH2:34] domicilio guardado
+[2024-05-28 21:41:15] [ INFO ] [PacienteDAOH2:38] paciente guardado con exito
+[2024-05-28 21:41:55] [ INFO ] [PacienteDAOH2:49] iniciando la operacion de buscado de un paciente con id : 1
+[2024-05-28 21:41:55] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-28 21:42:04] [ INFO ] [PacienteDAOH2:49] iniciando la operacion de buscado de un paciente con id : 2
+[2024-05-28 21:42:04] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-28 21:42:10] [ INFO ] [PacienteDAOH2:49] iniciando la operacion de buscado de un paciente con id : 3
+[2024-05-28 21:42:10] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 3
+[2024-05-28 21:42:17] [ INFO ] [PacienteDAOH2:49] iniciando la operacion de buscado de un paciente con id : 4
+[2024-05-28 22:11:09] [ WARN ] [BD:39] Error de Sintaxis en sentencia SQL "INSERT INTO DOMICILIOS  (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre Viva',742,'Springfield','USA'),('Av. Uruguay',345,'Punta del Este','Uruguay')[*]INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES ('ABC10','RENE','VALENZUELA'), ('ABC20','GINA','ARIAS')"
+Syntax error in SQL statement "INSERT INTO DOMICILIOS  (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre Viva',742,'Springfield','USA'),('Av. Uruguay',345,'Punta del Este','Uruguay')[*]INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES ('ABC10','RENE','VALENZUELA'), ('ABC20','GINA','ARIAS')"; SQL statement:
+INSERT INTO DOMICILIOS  (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre Viva',742,'Springfield','USA'),('Av. Uruguay',345,'Punta del Este','Uruguay')INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES ('ABC10','RENE','VALENZUELA'), ('ABC20','GINA','ARIAS') [42000-214]
+[2024-05-28 22:12:06] [ INFO ] [BD:34] tabla creada con exito
+[2024-05-28 22:13:29] [ INFO ] [OdontologoDAOH2:24] iniciando las operaciones de: 

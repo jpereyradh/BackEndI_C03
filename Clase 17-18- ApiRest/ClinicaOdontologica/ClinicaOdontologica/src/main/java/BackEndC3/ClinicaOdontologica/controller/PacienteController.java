@@ -43,5 +43,9 @@ public class PacienteController {
         }
 
     }
+    @GetMapping("/{id}")
+    public Paciente buscarPorPaciente(@PathVariable Integer id){
+        return pacienteService.buscarPorID(id);
+    }
 
 }
