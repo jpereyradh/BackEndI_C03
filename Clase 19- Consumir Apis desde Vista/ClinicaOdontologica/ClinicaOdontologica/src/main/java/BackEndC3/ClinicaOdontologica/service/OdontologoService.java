@@ -4,6 +4,8 @@ import BackEndC3.ClinicaOdontologica.dao.OdontologoDAOH2;
 import BackEndC3.ClinicaOdontologica.dao.iDao;
 import BackEndC3.ClinicaOdontologica.model.Odontologo;
 
+import java.util.List;
+
 public class OdontologoService {
     private iDao<Odontologo> odontologoiDao;
 
@@ -16,5 +18,8 @@ public class OdontologoService {
     }
     public Odontologo buscarPorId(Integer id){
         return odontologoiDao.buscarPorId(id);
+    }
+    public List<Odontologo>listarTodos(){
+        return odontologoiDao.buscarTodos();
     }
 }

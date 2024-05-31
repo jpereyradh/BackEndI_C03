@@ -124,3 +124,5 @@ INSERT INTO DOMICILIOS  (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre V
 [2024-05-30 20:03:30] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 3
 [2024-05-30 20:03:30] [ INFO ] [OdontologoDAOH2:46] iniciando las operaciones de:  buscado por ID: 3
 [2024-05-30 20:03:30] [ INFO ] [TurnoDAOLISTA:20] turno guardado con exito
+[2024-05-30 21:41:00] [ INFO ] [BD:34] tabla creada con exito
+[2024-05-30 21:41:50] [ INFO ] [BD:34] tabla creada con exito
