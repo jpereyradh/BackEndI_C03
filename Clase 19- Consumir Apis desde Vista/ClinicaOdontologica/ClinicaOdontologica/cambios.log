@@ -126,3 +126,7 @@ INSERT INTO DOMICILIOS  (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre V
 [2024-05-30 20:03:30] [ INFO ] [TurnoDAOLISTA:20] turno guardado con exito
 [2024-05-30 21:41:00] [ INFO ] [BD:34] tabla creada con exito
 [2024-05-30 21:41:50] [ INFO ] [BD:34] tabla creada con exito
+[2024-05-30 21:53:08] [ INFO ] [BD:34] tabla creada con exito
+[2024-05-30 21:53:29] [ INFO ] [OdontologoDAOH2:92] iniciando las operaciones de:  listado de todos los odontologos
+[2024-05-30 21:54:11] [ INFO ] [OdontologoDAOH2:24] iniciando las operaciones de: guardado de :  ABC30
+[2024-05-30 21:54:15] [ INFO ] [OdontologoDAOH2:92] iniciando las operaciones de:  listado de todos los odontologos
