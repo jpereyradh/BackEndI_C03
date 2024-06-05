@@ -12,11 +12,13 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/movimientos")
 public class MovimientoController {
+
     @Autowired
-    private MovimientoService movimientoService;
+     private MovimientoService movimientoService;
 
 
-   @PostMapping
+
+    @PostMapping
     public ResponseEntity<Movimiento> guardarMovimiento(@RequestBody Movimiento movimiento){
         return ResponseEntity.ok(movimientoService.guardarMovimiento(movimiento));
     }
