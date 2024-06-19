@@ -1,6 +1,7 @@
 package BackEndC3.ClinicaOdontologica.controller;
 
 
+import BackEndC3.ClinicaOdontologica.dto.TurnoDTO;
 import BackEndC3.ClinicaOdontologica.entity.Odontologo;
 import BackEndC3.ClinicaOdontologica.entity.Paciente;
 import BackEndC3.ClinicaOdontologica.entity.Turno;
@@ -26,7 +27,7 @@ public class TurnoController {
 
 
     @PostMapping
-    public ResponseEntity<Turno> guardarTurno(@RequestBody Turno turno){
+    public ResponseEntity<TurnoDTO> guardarTurno(@RequestBody Turno turno){
         Optional<Paciente> pacienteBuscado= pacienteService.buscarPorId(turno.getPaciente().getId());
         Optional<Odontologo> odontologoBuscado= odontologoService.buscarPorId(turno.getOdontologo().getId());
 
@@ -40,12 +41,12 @@ public class TurnoController {
 
     }
     @GetMapping
-    public ResponseEntity<List<Turno>> buscarTodos(){
+    public ResponseEntity<List<TurnoDTO>> buscarTodos(){
         return ResponseEntity.ok(turnoService.listarTodos());
     }
     @DeleteMapping("/{id}")
     public ResponseEntity<String> eliminarTurno(@PathVariable Long id){
-        Optional<Turno> turnoBuscado= turnoService.buscarPorId(id);
+        Optional<TurnoDTO> turnoBuscado= turnoService.buscarPorId(id);
         if(turnoBuscado.isPresent()){
             turnoService.eliminarTurno(id);
             return ResponseEntity.ok("Turno eliminado con exito");
